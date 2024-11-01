@@ -1,8 +1,11 @@
 import { Bell, MoreHorizontal } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useBlogs } from "../hooks"
 
 export const AppBar: React.FC = (): JSX.Element => {
+    const { blogs } = useBlogs();
+
   return (
     <div className="flex items-center justify-between p-4 bg-white border-b border-gray-200">
       <div className="flex items-center space-x-2">
@@ -21,7 +24,7 @@ export const AppBar: React.FC = (): JSX.Element => {
         </Link>
         <Bell className="text-gray-400 w-6 h-6" />
         <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
-          <span className="text-gray-600 font-medium">h</span>
+          <span className="text-gray-600 font-medium">{blogs?.author?.name?.charAt(0)?.toUpperCase()}</span>
         </div>
         <MoreHorizontal className="text-gray-400 w-6 h-6" />
       </div>
