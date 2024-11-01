@@ -13,13 +13,13 @@ const LandingPage = () => {
       category: "Development",
       title: "Mastering React Hooks: A Deep Dive",
       description: "Unlock the power of React Hooks and learn how to build more efficient and maintainable applications.",
-      imageUrl: "https://unsplash.com/photos/text-klMii3cR9iI"
+      imageUrl: "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       category: "Marketing",
       title: "Effective Content Marketing Strategies for 2024",
       description: "Discover the latest content marketing trends and strategies to boost your online presence.",
-      imageUrl: "https://unsplash.com/photos/text-klMii3cR9iI"
+      imageUrl: "https://images.unsplash.com/photo-1533750516457-a7f992034fec?q=80&w=1812&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ];
 
