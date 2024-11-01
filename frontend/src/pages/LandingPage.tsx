@@ -32,9 +32,8 @@ const LandingPage = () => {
         </div>
         <nav>
           <ul className="flex space-x-6">
-{/*             <li><a href="#" className="hover:text-gray-600">Home</a></li>
-            <li><a href="#" className="hover:text-gray-600">Blog</a></li> */}
-            <li><a href="/signup" className="hover:text-gray-600">signup</a></li>
+
+            <li><a href="/signup"  className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition duration-300">Signup</a></li>
           </ul>
         </nav>
       </header>
