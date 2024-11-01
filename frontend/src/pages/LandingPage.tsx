@@ -7,7 +7,7 @@ const LandingPage = () => {
       category: "Design",
       title: "Designing for Accessibility: A Comprehensive Guide",
       description: "Explore the principles and best practices for creating accessible designs that cater to all users.",
-      imageUrl: "https://unsplash.com/photos/text-klMii3cR9iI"
+      imageUrl: "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?q=80&w=2052&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       category: "Development",
